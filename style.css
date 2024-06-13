@@ -1,0 +1,104 @@
+.encabezado {
+    position: relative;
+    background-image: url(/Portada.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    padding: 20px;
+    color: white;
+}
+.titulo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #CCA43B;
+    font-size: 80px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 3px 3px #363636;
+}
+.navegacion {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.navegacion a {
+    color: #CCA43B;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+    transition: color 0.3s;
+    font-size: 20px;
+    box-shadow: 3px 2px 2px 3px#363636;
+}
+.navegacion a:hover {
+    color: #E5E5E5;
+}
+body {
+    background-color: #363636;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    position: relative;
+}
+.subtitulo {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 50px;
+    color: #E5E5E5;
+    font-family: 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana;
+}
+.origen {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.tarjetas {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.card {
+    width: 600px;
+    height: 500px;
+    border: 5px solid #CCA43B;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 8px 8px 8px 8px #E5E5E5;
+}
+.card h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+.card p {
+    font-size: 26px;
+    color: #363636;
+    font-weight: bold;
+    margin-top: 20px;
+}
+footer {
+    background-color: #CCA43B;
+    color: #363636;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.iconos {
+    display: flex;
+    gap: 10px;
+}
+.iconos img {
+    width: 50px;
+    height: 50px;
+}
+.contacto {
+    text-align: right;
+    font-size: 20px;
+}
